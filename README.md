@@ -2,7 +2,7 @@
 
 **A frontend application built with React to simulate a peer-to-peer book sharing community for kids.**
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://YOUR_DEPLOYMENT_LINK_HERE.vercel.app)
+https://book-buddy-react-app.vercel.app
 https://github.com/udaykiran-29/book-buddy-react-app
 
 Book Buddy is a responsive and kid-friendly web application designed for a book sharing community. It allows users to list books they've finished, discover new books from others, and manage requests for sharing or exchanging books, all within a clean and intuitive interface.
