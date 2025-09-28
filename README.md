@@ -3,7 +3,7 @@
 **A frontend application built with React to simulate a peer-to-peer book sharing community for kids.**
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://YOUR_DEPLOYMENT_LINK_HERE.vercel.app)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+https://github.com/udaykiran-29/book-buddy-react-app
 
 Book Buddy is a responsive and kid-friendly web application designed for a book sharing community. It allows users to list books they've finished, discover new books from others, and manage requests for sharing or exchanging books, all within a clean and intuitive interface.
 
@@ -44,7 +44,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    git clone https://github.com/udaykiran-29/book-buddy-react-app
     ```
 2.  **Navigate to the project directory:**
     ```bash
