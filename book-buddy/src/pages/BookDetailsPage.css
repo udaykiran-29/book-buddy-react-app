@@ -1,0 +1,28 @@
+.book-details-container { display: flex; gap: 40px; margin-top: 20px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.details-left { flex-shrink: 0; }
+.details-cover-img { width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+.details-right { flex-grow: 1; }
+.details-title { font-size: 2.5rem; margin: 0 0 5px 0; }
+.details-author { font-size: 1.2rem; font-weight: 400; color: #555; margin-top: 0; margin-bottom: 20px; }
+.details-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+.tag { padding: 6px 12px; border-radius: 16px; font-size: 0.9rem; font-weight: 500; }
+.tag.genre { background-color: #e2e8f0; }
+.tag.age { background-color: #fefcbf; }
+.tag.availability.free { background-color: #d4edda; color: #155724; }
+.tag.availability.exchange { background-color: #cce5ff; color: #004085; }
+.details-status { font-size: 1.1rem; color: #333; }
+.owner-info { display: flex; align-items: center; gap: 15px; background-color: #f8f9fa; padding: 15px; border-radius: 8px; margin: 30px 0; }
+.owner-avatar { width: 50px; height: 50px; border-radius: 50%; }
+.owner-text { margin: 0; color: #6c757d; font-size: 0.9rem; }
+.owner-name { margin: 0; font-weight: bold; font-size: 1.1rem; }
+.action-buttons { margin-top: 20px; }
+.btn { padding: 12px 24px; border: none; border-radius: 5px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background-color 0.2s; }
+.btn-primary { background-color: #007bff; color: white; }
+.btn-primary:hover { background-color: #0056b3; }
+.btn-secondary { background-color: #6c757d; color: white; }
+.btn-secondary:hover { background-color: #5a6268; }
+.status-unavailable { font-weight: bold; color: #777; font-size: 1.1rem; }
+@media (max-width: 768px) {
+  .book-details-container { flex-direction: column; align-items: center; text-align: center; }
+  .details-tags, .owner-info { justify-content: center; }
+}
